@@ -12,6 +12,7 @@
     box-sizing: border-box;
     margin:0;
     padding:0;
+    border: 1px solid green;
 }
 
 html{
@@ -159,8 +160,8 @@ ul li a{
 
 .popular h1{
     font-size:2.2rem;
-    padding-top:30px;
-    padding-left:30px;
+    /* padding-top:30px;
+    padding-left:30px; */
     color:var(--pink);
     width:100%;
 }
@@ -391,6 +392,10 @@ hr{
 
     .nav{
         width:60%;
+    }
+
+    .banner{
+        padding-left: 29px;
     }
 
 }
